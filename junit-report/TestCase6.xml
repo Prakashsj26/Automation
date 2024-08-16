@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.573" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Contact us form" name="" time="12.362">
+<system-out><![CDATA[
+Given the user launch url http:automationexercise.com.......................passed
+Then the user  Verify that home page is visible successfully................passed
+When the user  Click on Contact Us button...................................passed
+And the user  Verify GET IN TOUCH is visible................................passed
+And the user  Enter name, email, subject and message........................passed
+And the user  Upload file...................................................passed
+And the user  Click Submit button...........................................passed
+And the user Click OK button................................................passed
+Then the user Verify success message Success! Your details have been submitted successfully is visible.passed
+And the user  Click Home button.............................................passed
+Then the user verify that landed to home page successfully..................passed
+]]></system-out>
+</testcase>
+</testsuite>

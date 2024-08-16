@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="4.381" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Verify Subscription in Cart page" name="" time="4.169">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Click Cart button.............................................passed
+And the user Scroll down to footer..........................................passed
+Then the user Verify text SUBSCRIPTION......................................passed
+When the user Enter email address in input and click arrow button...........passed
+Then the user Verify success message You have been successfully subscribed! is visible.passed
+]]></system-out>
+</testcase>
+</testsuite>

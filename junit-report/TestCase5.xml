@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.057" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Register user with existing Email" name="" time="4.867">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user  Verify that home page is visible successfully................passed
+When the user Click on Signup-Login button..................................passed
+Then the user Verify New User Signup! is visible............................passed
+When the user Enter name and already registered email address...............passed
+And the user  Click Signup button...........................................passed
+Then Verify error Email Address already exist! is visible...................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.338" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="View &amp; Cart Brand Products" name="" time="19.054">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+When the user Click on Products button......................................passed
+Then the user Verify that Brands are visible on left side bar...............passed
+When the user Click on any brand name.......................................passed
+Then the user Verify that user is navigated to brand page and brand products are displayed.passed
+When the user On left side bar, click on any other brand link...............passed
+Then the user Verify that user is navigated to that brand page and can see products.passed
+]]></system-out>
+</testcase>
+</testsuite>

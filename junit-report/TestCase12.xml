@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="13.325" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add Products in Cart" name="" time="13.132">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Click Products button.........................................passed
+And the user Hover over first product and click Add to cart.................passed
+And the user  Click Continue Shopping button................................passed
+And the user  Hover over second product and click Add to cart...............passed
+And the user Click View Cart button.........................................passed
+Then the user Verify both products are added to Cart........................passed
+Then the user  Verify their prices, quantity and total price................passed
+]]></system-out>
+</testcase>
+</testsuite>

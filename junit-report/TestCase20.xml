@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.468" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Search Products and Verify Cart After Login" name="" time="24.186">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+When the user Click on Products button......................................passed
+Then the user Verify user is navigated to ALL PRODUCTS page successfully....passed
+When the user Enter product name in search input and click search button....passed
+And the user Verify SEARCHED PRODUCTS is visible............................passed
+Then the user Verify all the products related to search are visible.........passed
+When the user Add those products to cart....................................passed
+And the user Click Cart button and..........................................passed
+Then the user verify that products are visible in cart......................passed
+When the user Click Signup - Login button and submit login details..........passed
+And the user Again, go to Cart page.........................................passed
+Then the user Verify that those products are visible in cart after login as well.passed
+]]></system-out>
+</testcase>
+</testsuite>

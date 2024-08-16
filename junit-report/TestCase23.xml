@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.625" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Verify address details in checkout page" name="" time="30.291">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Click Signup - Login button...................................passed
+And the user Fill all details in Signup and create account..................passed
+Then the user Verify ACCOUNT CREATED!.......................................passed
+When the user click Continue button.........................................passed
+Then the user Verify  Logged in as username at top..........................passed
+When the user Add products to cart..........................................passed
+And the user Click Cart button..............................................passed
+Then the user Verify that cart page is displayed............................passed
+When the user Click Proceed To Checkout.....................................passed
+Then the user Verify that the delivery address is same address filled at the time registration of account.passed
+Then the user Verify that the billing address is same address filled at the time registration of account.passed
+When the user Click Delete Account button...................................passed
+Then the user Verify ACCOUNT DELETED! and click Continue button.............passed
+]]></system-out>
+</testcase>
+</testsuite>

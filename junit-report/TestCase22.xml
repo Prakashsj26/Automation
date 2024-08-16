@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.014" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add to cart from Recommended items" name="" time="14.719">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+When the user Scroll to bottom of page......................................passed
+Then the user Verify RECOMMENDED ITEMS are visible..........................passed
+When the user Click on Add To Cart on Recommended product...................passed
+And the user Click on View Cart button......................................passed
+Then the user Verify that product is displayed in cart page.................passed
+]]></system-out>
+</testcase>
+</testsuite>

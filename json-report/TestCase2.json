@@ -1,0 +1,118 @@
+[ {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2024-08-16T09:39:28.681Z",
+    "line" : 4,
+    "name" : "",
+    "description" : "",
+    "id" : "login-user-with-correct-email-and-password;",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2401059500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "the user Launch URL",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_launch_url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 37274100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Verify that home page is visible successfully",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.verify_that_home_page_is_visible_successfully()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1067423400,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "the user Click on Signup / Login button",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_click_on_signup_login_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 31347200,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the user Verify Login to your account is visible",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_verify_login_to_your_account_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 292831200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "the user Enter correct email address and password",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_enter_correct_email_address_and_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1562887500,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "the user Click login button",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_click_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 31066600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "the user Verify that Logged in as username is visible",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_verify_that_logged_in_as_username_is_visible()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1393475800,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "the user Click Delete Account button",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_click_delete_account_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 27801600,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "the user Verify that ACCOUNT DELETED! is visible",
+      "match" : {
+        "location" : "Org.StepDefinition2.LoginUser.the_user_verify_that_account_deleted_is_visible()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login User with correct email and password",
+  "description" : "",
+  "id" : "login-user-with-correct-email-and-password",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Org/feature/LoginUser2.feature",
+  "tags" : [ ]
+} ]

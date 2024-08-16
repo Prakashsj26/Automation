@@ -1,0 +1,206 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2024-08-16T09:23:09.006Z",
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "id" : "register-user;",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4413049900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "the user Launch Url",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_launch_url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 38701700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "the user Verify that home page is visible successfully",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_that_home_page_is_visible_successfully()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1568433500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "the user Click on Signup Login button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_click_on_signup_login_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 31377700,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the user verify New User Signup! is visible",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_new_user_signup_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 260039900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "the user Enter name and email address",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_enter_name_and_email_address()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1871448900,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "the user Click Signup button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_click_signup_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 35853800,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "the user Verify that ENTER ACCOUNT INFORMATION is visible",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_that_enter_account_information_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1415672700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "the user Enter the details: Title, Name, Email, Password, Date of birth",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_enter_the_details_title_name_email_password_date_of_birth()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 68120500,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "the user Select checkbox Sign up for our newsletter!",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_select_checkbox_sign_up_for_our_newsletter()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 65276000,
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "the user Select checkbox Receive special offers from our partners!",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_select_checkbox_receive_special_offers_from_our_partners()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 974205100,
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "the user enter the First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_enter_the_first_name_last_name_company_address_address2_country_state_city_zipcode_mobile_number()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1533862800,
+        "status" : "passed"
+      },
+      "line" : 17,
+      "name" : "the user  Click Create Account button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_click_create_account_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 38624400,
+        "status" : "passed"
+      },
+      "line" : 18,
+      "name" : "the user  Verify that ACCOUNT CREATED! is visible",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_that_account_created_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1129239100,
+        "status" : "passed"
+      },
+      "line" : 19,
+      "name" : "the user  Click Continue button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_click_continue_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 35907300,
+        "status" : "passed"
+      },
+      "line" : 20,
+      "name" : "the user  Verify that Logged in as username is visible",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_that_logged_in_as_username_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1173140100,
+        "status" : "passed"
+      },
+      "line" : 21,
+      "name" : "the user  Click Delete Account button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_click_delete_account_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1824409400,
+        "status" : "passed"
+      },
+      "line" : 22,
+      "name" : "the user Verify that ACCOUNT DELETED! is visible and click Continue button",
+      "match" : {
+        "location" : "Org.Step_Definition.RegisterUser.the_user_verify_that_account_deleted_is_visible_and_click_continue_button()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Register user",
+  "description" : "",
+  "id" : "register-user",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Org/feature/RegisterUser.feature",
+  "tags" : [ ]
+} ]

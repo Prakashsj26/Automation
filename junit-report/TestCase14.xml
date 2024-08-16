@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.768" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Place Order: Register while Checkout" name="" time="52.559">
+<system-out><![CDATA[
+Given the user Launch Url...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Add products to cart..........................................passed
+And the user Click Cart button..............................................passed
+Then the user Verify that cart page is displayed............................passed
+When the user Click Proceed To Checkout.....................................passed
+And the user Click Register-Login button....................................passed
+And the user Fill all details in Signup and create account..................passed
+Then the user Verify ACCOUNT CREATED!.......................................passed
+When the user click Continue button.........................................passed
+Then the user  Verify Logged in as username at top..........................passed
+And the user Click Proceed To Checkout button...............................passed
+Then the user Verify Address Details and Review Your Order..................passed
+When the user Enter description in comment text area and click Place Order..passed
+And the user Enter payment details: Name on Card, Card Number, CVC, Expiration date.passed
+And the user Click Pay and Confirm Order button.............................passed
+Then the user Verify success message Your order has been placed successfully!.passed
+When the user Click Delete Account button...................................passed
+Then the user Verify ACCOUNT DELETED! and click Continue button.............passed
+]]></system-out>
+</testcase>
+</testsuite>

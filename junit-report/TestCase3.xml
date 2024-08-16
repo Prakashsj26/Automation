@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.126" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login User with incorrect email and password" name="" time="4.965">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user  Verify that home page is visible successfully................passed
+Given the user  Click on Signup-Login button................................passed
+Then the user  Verify Login to your account is visible......................passed
+Given the user  Enter incorrect email address and password..................passed
+And the user  Click login button............................................passed
+Then Verify error Your email or password is incorrect! is visible...........passed
+]]></system-out>
+</testcase>
+</testsuite>

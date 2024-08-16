@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.048" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login User with correct email and password" name="" time="6.869">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then Verify that home page is visible successfully..........................passed
+When the user Click on Signup / Login button................................passed
+Then the user Verify Login to your account is visible.......................passed
+When the user Enter correct email address and password......................passed
+And the user Click login button.............................................passed
+And the user Verify that Logged in as username is visible...................passed
+And the user Click Delete Account button....................................passed
+Then the user Verify that ACCOUNT DELETED! is visible.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

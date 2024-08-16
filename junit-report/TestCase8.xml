@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.3" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Verify All Products and product detail page" name="" time="10.104">
+<system-out><![CDATA[
+Given the User Launch URL...................................................passed
+Then the user  Verify that home page is visible successfully................passed
+When the user  Click on Products button.....................................passed
+Then the user  Verify user is navigated to ALL PRODUCTS page successfully...passed
+Then the user verify The products list is visible...........................passed
+When the user Click on View Product of first product........................passed
+And the User is landed to product detail page...............................passed
+Then the user  Verify that detail detail is visible: product name, category, price, availability, condition, brand name.passed
+]]></system-out>
+</testcase>
+</testsuite>

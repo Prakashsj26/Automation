@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.895" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Remove Products From Cart" name="" time="11.626">
+<system-out><![CDATA[
+Given the user Launch Url...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Add products to cart..........................................passed
+And the use Click Cart button...............................................passed
+Then the user Verify that cart page is displayed............................passed
+When the user Click X button corresponding to particular product............passed
+Then the user Verify that product is removed from the cart..................passed
+]]></system-out>
+</testcase>
+</testsuite>

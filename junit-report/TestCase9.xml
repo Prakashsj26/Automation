@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.865" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Search Product" name="" time="5.681">
+<system-out><![CDATA[
+Given the user  Launch URL..................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Click on Products button......................................passed
+Then the user Verify user is navigated to ALL PRODUCTS page successfully....passed
+When the user  Enter product name in search input and click search button...passed
+Then the user Verify SEARCHED PRODUCTS is visible...........................passed
+Then the user Verify all the products related to search are visible.........passed
+]]></system-out>
+</testcase>
+</testsuite>

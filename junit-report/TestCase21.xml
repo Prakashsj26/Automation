@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.621" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add review on product" name="" time="8.35">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+When the user Click on Products button......................................passed
+Then the user Verify user is navigated to ALL PRODUCTS page successfully....passed
+When the user Click on View Product button..................................passed
+Then the user Verify Write Your Review is visible...........................passed
+When the user Enter name, email and review..................................passed
+And the user Click Submit button............................................passed
+Then the user Verify success message Thank you for your review..............passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,96 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2024-08-16T09:51:08.121Z",
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "id" : "login-user-with-incorrect-email-and-password;",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2436104300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "the user Launch URL",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_launch_url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 36623500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "the user  Verify that home page is visible successfully",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_verify_that_home_page_is_visible_successfully()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1126706000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "the user  Click on Signup-Login button",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_click_on_signup_login_button()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 30665000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the user  Verify Login to your account is visible",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_verify_login_to_your_account_is_visible()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 270040700,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "the user  Enter incorrect email address and password",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_enter_incorrect_email_address_and_password()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1001569800,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "the user  Click login button",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.the_user_click_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 29165500,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "Verify error Your email or password is incorrect! is visible",
+      "match" : {
+        "location" : "Org.StepDefinition3.LoginIncorrect.verify_error_your_email_or_password_is_incorrect_is_visible()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login User with incorrect email and password",
+  "description" : "",
+  "id" : "login-user-with-incorrect-email-and-password",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Org/feature/LoginIncorrect3.feature",
+  "tags" : [ ]
+} ]

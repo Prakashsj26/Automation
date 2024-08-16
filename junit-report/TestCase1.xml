@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.748" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Register user" name="" time="16.51">
+<system-out><![CDATA[
+Given the user Launch Url...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Click on Signup Login button..................................passed
+Then the user verify New User Signup! is visible............................passed
+When the user Enter name and email address..................................passed
+And the user Click Signup button............................................passed
+Then the user Verify that ENTER ACCOUNT INFORMATION is visible..............passed
+When the user Enter the details: Title, Name, Email, Password, Date of birth.passed
+And the user Select checkbox Sign up for our newsletter!....................passed
+And the user Select checkbox Receive special offers from our partners!......passed
+And the user enter the First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number.passed
+And the user  Click Create Account button...................................passed
+Then the user  Verify that ACCOUNT CREATED! is visible......................passed
+When the user  Click Continue button........................................passed
+Then the user  Verify that Logged in as username is visible.................passed
+When the user  Click Delete Account button..................................passed
+Then the user Verify that ACCOUNT DELETED! is visible and click Continue button.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.501" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Verify Scroll Up using 'Arrow' button and Scroll Down functionality" name="" time="8.222">
+<system-out><![CDATA[
+Given the user Launch URL...................................................passed
+Then the user Verify that home page is visible successfully.................passed
+When the user Scroll down page to bottom....................................passed
+Then the user Verify SUBSCRIPTION is visible................................passed
+When the user Click on arrow at bottom right side to move upward............passed
+Then the user Verify that page is scrolled up and Full-Fledged practice website for Automation Engineers text is visible on screen.passed
+]]></system-out>
+</testcase>
+</testsuite>
